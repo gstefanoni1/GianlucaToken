@@ -1,3 +1,6 @@
+/** @author Stefanoni Gianluca
+ * Script used to deploy the contract
+ */
 async function main() {
     const [deployer] = await ethers.getSigners();
   

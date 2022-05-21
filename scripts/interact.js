@@ -1,3 +1,6 @@
+/** @author Stefanoni Gianluca
+ * Script that verifies balance of an address
+ */
 // interact.js Ethereum Ropsten
 //Json tht contians key, addresses...
 const myJson = require('../process.json')

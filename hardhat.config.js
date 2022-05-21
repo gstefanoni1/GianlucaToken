@@ -1,3 +1,6 @@
+/** @author Stefanoni Gianluca
+ * Hardhat network, api configurations
+ */
 require("@nomiclabs/hardhat-waffle");
 require("dotenv").config()
 require("@nomiclabs/hardhat-ethers")
