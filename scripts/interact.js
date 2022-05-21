@@ -1,9 +1,11 @@
 // interact.js Ethereum Ropsten
+//Json tht contians key, addresses...
+const myJson = require('../process.json')
 
-const ALCHEMY_API_KEY = "j4tru1W1SBPOPXGyl3kqacuUomVy0F6U" //process.env.API_KEY
-const ROPSTEN_PRIVATE_KEY = "ec74e52c79601e4353c74baa7947a86dc9376a5faf1f75c76bb5e7b76d7e0e53" //process.env.PRIVATE_KEY
-const CONTRACT_ADDRESS = "0x5398dA903b0c067AD12D92AedceA77a942b5077D" //process.env.CONTRACT_ADDRESS
-const ROPSTEN_ADDRESS = "0xda4E24d1dF30cC01AE26e11F29FA2eC6A728E4a2" //process.env.ROPSTEN_ADDRESS
+const ALCHEMY_API_KEY =  myJson.ALCHEMY_API_KEY
+const ROPSTEN_PRIVATE_KEY = myJson.ROPSTEN_PRIVATE_KEY
+const CONTRACT_ADDRESS = myJson.CONTRACT_ADDRESS
+const ROPSTEN_ADDRESS = myJson.ROPSTEN_ADDRESS
 
 const contract = require("../artifacts/contracts/Token.sol/Token.json")
 /*console.log(JSON.stringify(contract.abi))*/
