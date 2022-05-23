@@ -1,7 +1,6 @@
 {
   "name": "hardhat-tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +14,21 @@
     "chai": "^4.3.6",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.0.0",
-    "hardhat": "^2.9.5"
+    "hardhat": "^2.9.6"
   },
   "dependencies": {
     "dotenv": "^16.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gstefanoni1/GianlucaToken.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gstefanoni1/GianlucaToken/issues"
+  },
+  "homepage": "https://github.com/gstefanoni1/GianlucaToken#readme",
+  "description": ""
 }
