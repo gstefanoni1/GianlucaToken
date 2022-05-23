@@ -5,7 +5,7 @@ require("@nomiclabs/hardhat-waffle");
 require("dotenv").config()
 require("@nomiclabs/hardhat-ethers")
 
-//Json tht contians key, addresses...
+// Json tht contians key, addresses...
 const myJson = require('./process.json')
 
 // Go to https://www.alchemyapi.io, sign up, create
@@ -26,6 +26,7 @@ const FUJI_PRIVATE_KEY = myJson.FUJI_PRIVATE_KEY
  */
 module.exports = {
   solidity: "0.8.14",
+  // Etherscan is the blockchain explorer for Ethereum, also inspects and verifies the contracts
   etherscan: {
     apiKey: "8YAH8PVDBZFB9AGMIFK6IY9T8A2J3DQKEY"
   },
