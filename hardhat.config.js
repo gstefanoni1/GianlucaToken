@@ -25,7 +25,7 @@ const FUJI_PRIVATE_KEY = myJson.FUJI_PRIVATE_KEY
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  solidity: "0.8.14",
+  solidity: "0.8.0",
   // Etherscan is the blockchain explorer for Ethereum, also inspects and verifies the contracts
   etherscan: {
     apiKey: "8YAH8PVDBZFB9AGMIFK6IY9T8A2J3DQKEY"
